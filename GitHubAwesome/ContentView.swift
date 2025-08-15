@@ -14,8 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            Button("Submit") {
+                print("hehe")
+            }
         }
-        .padding()
+        .padding(12)
     }
 }
 
