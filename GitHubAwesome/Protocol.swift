@@ -7,4 +7,7 @@
 
 protocol GameProtocol {
     var name: String { get }
+    var age: Int { get }
+    
+    func play()
 }
