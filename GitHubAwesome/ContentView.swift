@@ -14,10 +14,13 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Text("Hello, GitHub!")
+                .font(.headline)
             
             Button("Submit") {
                 print("hehe")
             }
+            
         }
         .padding(12)
     }
