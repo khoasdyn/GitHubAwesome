@@ -6,7 +6,7 @@
 //
 
 struct BaseModel: Codable {
-    var id: Int
+    var id: String
     var node_id: String
     var idString: String {
         return "\(id)"
