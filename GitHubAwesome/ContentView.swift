@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
                 .frame(width: 80, height: 80)
-            Text("Hello, GitHub!")
+            Text("Hello, GitHub LALA!")
                 .font(.headline)
             
             Button("Submit") {
