@@ -14,8 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
                 .frame(width: 80, height: 80)
-            Text("Hello, GitHub LALA!")
-                .font(.headline)
+            Text("This is Child Branch")
+                .font(.callout)
             
             Button("Submit") {
                 print("Khoa")
