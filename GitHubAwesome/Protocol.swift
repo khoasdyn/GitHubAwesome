@@ -10,4 +10,5 @@ protocol GameProtocol {
     var age: Int { get }
     func getName() -> String
     func play()
+    func sleep()
 }
