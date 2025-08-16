@@ -20,7 +20,6 @@ struct ContentView: View {
             Button("Submit") {
                 print("Khoa")
             }
-            
         }
         .padding(12)
     }
