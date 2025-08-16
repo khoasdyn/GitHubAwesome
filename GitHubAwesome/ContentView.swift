@@ -18,7 +18,7 @@ struct ContentView: View {
                 .font(.headline)
             
             Button("Submit") {
-                print("hehe")
+                print("Khoa")
             }
             
         }
