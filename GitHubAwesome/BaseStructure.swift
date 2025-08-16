@@ -8,4 +8,7 @@
 struct BaseModel: Codable {
     var id: Int
     var node_id: String
+    var idString: String {
+        return "\(id)"
+    }
 }
